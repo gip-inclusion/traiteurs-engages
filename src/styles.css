@@ -57,61 +57,6 @@ body {
   font-style: italic;
 }
 
-/* --- Hero composite images --- */
-.hero-images {
-  position: relative;
-  width: 100%;
-  max-width: 480px;
-  aspect-ratio: 1 / 1.1;
-}
-
-.hero-img-chef {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 62%;
-  height: 65%;
-  object-fit: cover;
-  border-radius: 0 120px 0 120px;
-  z-index: 2;
-}
-
-.hero-img-food {
-  position: absolute;
-  bottom: 8%;
-  left: 5%;
-  width: 40%;
-  height: 40%;
-  object-fit: cover;
-  border-radius: 100px 0 100px 0;
-  z-index: 2;
-}
-
-.hero-shape-deco {
-  position: absolute;
-  z-index: 1;
-}
-
-.hero-shape-top {
-  top: -8%;
-  right: -8%;
-  width: 40%;
-}
-
-.hero-shape-bottom {
-  bottom: 2%;
-  left: 20%;
-  width: 28%;
-}
-
-/* Mobile hero adjustments */
-@media (max-width: 1023px) {
-  .hero-images {
-    max-width: 340px;
-    margin: 0 auto;
-  }
-}
-
 /* --- Section "Comment ça fonctionne" timeline --- */
 
 /*
@@ -299,7 +244,7 @@ body {
   height: 50px;
   margin: 0 auto 0.5rem;
   rotate: 40deg;
-  background: url('./assets/images/deco-brush-strokes.png') no-repeat center;
+  background: url('./assets/images/deco-brush-strokes.webp') no-repeat center;
   background-size: contain;
 }
 
@@ -316,7 +261,7 @@ body {
     width: 80px;
     height: 80px;
     rotate: 40deg;
-    background: url('./assets/images/deco-brush-strokes.png') no-repeat center;
+    background: url('./assets/images/deco-brush-strokes.webp') no-repeat center;
     background-size: contain;
   }
 }
