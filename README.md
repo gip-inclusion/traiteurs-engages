@@ -1,18 +1,26 @@
-# Traiteurs Engagés
+# Les Traiteurs Engagés
 
-Landing page temporaire du projet **Traiteurs Engagés**, portée par le [GIP Inclusion](https://inclusion.gouv.fr).
-
-## À propos
-
-Ce site présente l'offre des traiteurs inclusifs et redirigera à terme vers l'application dédiée réalisée sur l'outil no code Ksaar par AuCarré.
-
-🔗 **[traiteurs.engages.inclusion.gouv.fr](https://traiteurs.engages.inclusion.gouv.fr)**
-
-## Stack technique
-
-- HTML / CSS
-- Hébergé sur [Scalingo](https://scalingo.com)
+Landing page du service Les Traiteurs Engagés, porté par la [Plateforme de l'inclusion](https://inclusion.beta.gouv.fr/).
 
 ## Déploiement
 
-Le déploiement se fait automatiquement sur Scalingo à chaque push sur la branche `main`.
+Site statique déployé sur Scalingo via le [nginx-buildpack](https://github.com/Scalingo/nginx-buildpack).
+
+```bash
+git push scalingo main
+```
+
+## Structure
+
+```
+src/
+├── index.html      # Page principale
+├── styles.css      # Feuille de styles
+└── assets/
+    ├── fonts/      # Marianne, Fraunces
+    └── images/     # Images et illustrations
+```
+
+## Licence
+
+[MIT](LICENSE)
