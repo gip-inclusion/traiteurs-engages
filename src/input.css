@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #1A3A52;
+  --color-coral: #F06B5B;
+  --color-coral-light: #F9C5C0;
+  --color-cream: #FDF5EE;
+  --color-dark-red: #B70102;
+  --color-pink: #FFDDDD;
+  --color-black: #000000;
+
+  --font-marianne: 'Marianne', 'Arial', sans-serif;
+  --font-fraunces: 'Fraunces', 'Georgia', serif;
+}
+
+@source "./index.html";
