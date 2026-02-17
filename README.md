@@ -19,6 +19,7 @@ src/
 └── assets/
     ├── fonts/      # Marianne, Fraunces
     └── images/     # Images et illustrations
+    └── screenshots/# Screenshots
 ```
 
 ## Licence
